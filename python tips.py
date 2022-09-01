@@ -36,3 +36,7 @@ cubes = [value **3 for value in range(1,12)]
 print (cubes)
 
 No se puede iterar varias veces un objeto csv_
+
+Multiline String
+prompt =  "If you tell us who you are, we can personalize the messages you see."
+prompt += "\nWhat is your first name? "

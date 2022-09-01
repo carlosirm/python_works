@@ -11,3 +11,9 @@ print (full_name)
 
 print ("hello, " + full_name.title() + "!")
 
+lista = ['carlos','lilene','lorenzo']
+
+
+print (lista.pop())
+print (lista.pop())
+print (lista.pop())

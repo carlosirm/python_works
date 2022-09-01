@@ -1,6 +1,7 @@
 alien_0 = {}                # create an empty dictionary
 alien_0['color'] = 'green'  # assign green value to key 'color'
 alien_0['points'] = 5       # assign 5 value to key 'points'
+alien_0['height'] = 180       # assign 5 value to key 'points'
 print(alien_0)              # print the hole dictionary-
 
 # >>>> output: 

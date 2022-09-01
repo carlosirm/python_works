@@ -1,2 +1,1 @@
-for value in range (1,20,1):
-	print (value)
+print ([i.lower() for i in 'hola'])
