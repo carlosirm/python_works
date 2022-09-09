@@ -21,3 +21,5 @@ while polling_active:
 print("\n--- Poll Results ---")
 for name, response in responses.items():
 	print(name + " would like to climb " + response + ".")
+
+print (responses)
