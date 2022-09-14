@@ -1,3 +1,4 @@
+"""A class that can be used to represent a car."""
 class Car():
 	def __init__(self, make, model, year):
 		"""Initialize attributes to describe a car."""

@@ -7,6 +7,8 @@ these flavors. Create an instance of IceCreamStand, and call this method."""
 
 from p171_exercises import Restaurant
 from p171_exercises import User
+from p172_inheritance import Battery
+from p172_inheritance import ElectricCar
 
 class IceCreamStand(Restaurant):
 	"""Sub Class IceCream"""
@@ -64,3 +66,17 @@ class Privileges():
 
 new_user = Admin('Carlos','Rosas')
 new_user.privileges.show_privileges()
+
+
+"""9-9. Battery Upgrade: Use the final version of electric_car.py from this section.
+Add a method to the Battery class called upgrade_battery(). This method
+should check the battery size and set the capacity to 85 if it isn’t already.
+Make an electric car with a default battery size, call get_range() once, and
+then call get_range() a second time after upgrading the battery. You should
+see an increase in the car’s range."""
+
+# The class Battery was modified in the module p172_inheritance.py
+citroen_c3 = ElectricCar('citroen','c3',2016)
+citroen_c3.battery.get_range()
+citroen_c3.battery.upgrade_battery()
+citroen_c3.battery.get_range()
